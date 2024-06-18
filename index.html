@@ -5,50 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather Forecast Website by Stelbud</title>
     <link rel="stylesheet" href="src/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>
-      <form class="search-form" id="search=form">
-        <input
-          type="search"
-          placeholder="Enter a city.."
-          required
-          autofocus
-          class="search-form-input"
-          id="search-form-input"
-        />
+    <div class="body-container">
+      <header>
+        <form class="search-form" id="search=form">
+          <input
+            type="search"
+            placeholder="Enter a city.."
+            required
+            autofocus
+            class="search-form-input"
+            id="search-form-input"
+          />
 
-        <input type="submit" value="search" class="search-form-button" />
-      </form>
-    </header>
+          <input type="submit" value="search" class="search-form-button" />
+        </form>
+      </header>
 
-    <main>
-      <h1>Bogor</h1>
-      <p>
-        Friday, 12:23, partly cloudy
+      <main>
+        <div class="whole-main-section">
+          <div class="city-name-and-details">
+            <h1 class="city-name">Bogor</h1>
+            <p class="weather-details">
+              Friday, 12:23, partly cloudy
+              <br />
+              Humidity: <strong>63%</strong>, Wind: <strong>6 km/h</strong>
+            </p>
+          </div>
+          <div class="weather-icon-and-temp">
+            <div class="weather-icon">⛅</div>
+            <div class="weather-temp">34</div>
+            <div class="weather-unit">°C</div>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/stelbud" target="_blank"> Stella Budi</a>,
         <br />
-        Humidity: 63%, Wind: 6 km/h
-        <br />
-        ⛅ 34°C
-      </p>
-    </main>
-
-    <footer>
-      This project was coded by
-      <a href="https://github.com/stelbud" target="_blank"> Stella Budi</a>,
-      <br />
-      is open-sourced on
-      <a
-        href="https://github.com/stelbud/SheCodes-Plus-Final-Project"
-        target="_blank"
-        >Github</a
-      >
-      and hosted on
-      <a
-        href="https://main--weatherforecastbystelbud.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+        is open-sourced on
+        <a
+          href="https://github.com/stelbud/SheCodes-Plus-Final-Project"
+          target="_blank"
+          >Github</a
+        >
+        and hosted on
+        <a
+          href="https://main--weatherforecastbystelbud.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
   </body>
 </html>

@@ -1,3 +1,97 @@
 body {
-  background-color: green;
+  background-color: rgb(232, 235, 237);
+  font-family: "Lato", sans-serif;
+}
+
+.body-container {
+  background-color: rgb(250, 250, 250);
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  box-shadow: 2px 5px 5px rgb(235, 235, 235);
+  border-radius: 10px;
+}
+
+.search-form-input {
+  background-color: rgb(232, 235, 237);
+  font-size: 16px;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  width: 60%;
+}
+
+.search-form-button {
+  background-color: rgb(87, 159, 201);
+  font-size: 16px;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  color: rgb(250, 250, 250);
+}
+
+header {
+  border-bottom: 1px solid rgb(232, 235, 237);
+  padding: 0 0 30px 0;
+}
+
+.whole-main-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+
+.city-name {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  margin-top: 0px;
+  line-height: 48px;
+  font-size: 42px;
+  color: rgb(51, 51, 51);
+}
+
+.weather-details {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgb(88, 88, 88, 0.7);
+}
+
+.weather-details strong {
+  color: rgb(87, 159, 201, 0.7);
+}
+
+.weather-icon-and-temp {
+  display: flex;
+}
+
+.weather-icon {
+  font-size: 38px;
+  margin-top: 26px;
+}
+
+.weather-temp {
+  font-size: 88px;
+  font-weight: 600;
+  color: rgb(51, 51, 51);
+}
+
+.weather-unit {
+  margin-top: 16px;
+  font-size: 26px;
+  color: rgb(51, 51, 51);
+}
+
+footer {
+  padding: 30px 0 0 0;
+  border-top: 1px solid rgb(232, 235, 237);
+  text-align: center;
+  font-size: 13px;
+  color: rgb(88, 88, 88, 0.4);
+}
+
+a {
+  color: rgb(88, 88, 88, 0.4);
+  font-weight: 600;
+  text-decoration: none;
 }
