@@ -82,6 +82,41 @@ header {
   color: rgb(51, 51, 51);
 }
 
+.weather-forecast {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.weather-forecast-date {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(88, 88, 88, 0.7);
+}
+
+.weather-forecast-icon {
+  padding: 20px;
+  font-size: 28px;
+}
+
+.weather-forecast-temperature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weather-forecast-temperature-max strong {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(87, 159, 201, 0.7);
+}
+
+.weather-forecast-temperature-min {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(88, 88, 88, 0.7);
+}
+
 footer {
   padding: 30px 0 0 0;
   border-top: 1px solid rgb(232, 235, 237);
@@ -90,7 +125,7 @@ footer {
   color: rgb(88, 88, 88, 0.4);
 }
 
-a {
+footer a {
   color: rgb(88, 88, 88, 0.4);
   font-weight: 600;
   text-decoration: none;
